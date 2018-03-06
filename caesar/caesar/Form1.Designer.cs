@@ -40,7 +40,7 @@
             // 
             // tb_eingabe
             // 
-            this.tb_eingabe.ForeColor = System.Drawing.Color.Yellow;
+            this.tb_eingabe.ForeColor = System.Drawing.Color.YellowGreen;
             this.tb_eingabe.Location = new System.Drawing.Point(12, 50);
             this.tb_eingabe.Name = "tb_eingabe";
             this.tb_eingabe.Size = new System.Drawing.Size(100, 20);
@@ -58,6 +58,7 @@
             // tb_ausgabe
             // 
             this.tb_ausgabe.Enabled = false;
+            this.tb_ausgabe.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.tb_ausgabe.Location = new System.Drawing.Point(12, 159);
             this.tb_ausgabe.Name = "tb_ausgabe";
             this.tb_ausgabe.Size = new System.Drawing.Size(100, 20);
