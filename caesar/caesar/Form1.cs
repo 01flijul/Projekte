@@ -11,16 +11,16 @@ namespace caesar
 {
     public partial class Form1 : Form
     {
-        public Form1()
+       
+
+        private void btn_verschluesseln_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
+            string eingabe;
+
+            eingabe = tb_eingabe.Text;
+            eingabe.ToUpper();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        //hallo
     }
 }
